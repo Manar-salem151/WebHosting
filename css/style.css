@@ -1,0 +1,50 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(25, 89, 217, 0.497), rgba(25, 89, 217, 0.908)), url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header-inf {
+    padding-top: 200px;
+}
+
+.nav-item .nav-link {
+    color: #fff ;
+    margin-left: 10px;
+}
+
+.nav-item .nav-link.active {
+    color: green !important;
+}
+
+.navbar-nav{
+    margin-left:60%;
+}
+.btn-h{
+    margin-left: 45%;
+}
+
+h2::after{
+    content: "";
+    width:250px;
+    height: 3px;
+    background-color: rgba(24, 21, 21, 0.86);
+    display: block;
+    margin:  20px auto;
+}
+.staff .card-img-top{
+    position: relative;
+    top: -50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-h {
+     margin-left: 35%;
+    }
+}
